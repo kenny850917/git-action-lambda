@@ -16,5 +16,5 @@ module.exports.addTwoNumber = (event) => {
     "equals to ",
     firstNum + secondNum
   );
-  return randomNumber;
+  return firstNum + secondNum;
 };

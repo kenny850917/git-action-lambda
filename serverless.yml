@@ -7,8 +7,12 @@ provider:
   region: us-west-1
 
 functions:
-  hello:
+  generateRandomNumber:
     handler: src/handler.generateRandomNumber
     timeout: 60 # seconds
     memorySize: 128 # mb
-    - s3: lambda-git-bucket
+
+  addTwoNumbers:
+    handler: src/handler.addTwoNumber
+    timeout: 60 # seconds
+    memorySize: 128 # mb

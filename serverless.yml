@@ -13,6 +13,6 @@ functions:
     memorySize: 128 # mb
 
   addTwoNumbers:
-    handler: src/haddTwoNumber.addTwoNumber
+    handler: src/addTwoNumber.addTwoNumber
     timeout: 60 # seconds
     memorySize: 128 # mb

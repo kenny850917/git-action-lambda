@@ -8,11 +8,11 @@ provider:
 
 functions:
   generateRandomNumber:
-    handler: src/handler.generateRandomNumber
+    handler: src/generateRandomNumber.generateRandomNumber
     timeout: 60 # seconds
     memorySize: 128 # mb
 
   addTwoNumbers:
-    handler: src/handler.addTwoNumber
+    handler: src/haddTwoNumber.addTwoNumber
     timeout: 60 # seconds
     memorySize: 128 # mb
